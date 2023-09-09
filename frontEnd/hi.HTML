@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Tasks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-image: url("C:/Users/shaik/OneDrive/Desktop/p.jpg"); /* Replace with the path to your Python-themed background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: linear-gradient(45deg, #333, #111);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            padding: 15px 0;
+        }
+        .navbar h1 {
+            color: white;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .option {
+            margin: 20px;
+            animation: fadeInSlideUp 1s ease-in-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        .option img {
+            width: 100px; /* Adjust as needed */
+            height: 100px; /* Adjust as needed */
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            transition: transform 2.0s;
+        }
+        .option img:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Keyframes for animation */
+        @keyframes fadeInSlideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Python Tasks</h1>
+    </div>
+    
+    <ul class="options">
+        <li class="option"><a href="option1.html"><img src="path/to/option1_logo.png" alt="Option 1"></a></li>
+        <li class="option"><a href="option2.html"><img src="path/to/option2_logo.png" alt="Option 2"></a></li>
+        <li class="option"><a href="option3.html"><img src="path/to/option3_logo.png" alt="Option 3"></a></li>
+        <li class="option"><a href="option4.html"><img src="path/to/option2_logo.png" alt="Option 4"></a></li>
+        <li class="option"><a href="option5.html"><img src="path/to/option2_logo.png" alt="Option 5"></a></li>
+        <li class="option"><a href="option6.html"><img src="path/to/option2_logo.png" alt="Option 6"></a></li>
+        <li class="option"><a href="option7.html"><img src="path/to/option2_logo.png" alt="Option 7"></a></li>
+    </ul>
+</body>
+</html>

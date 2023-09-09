@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black; /* Set background color to black */
+            margin: 0;
+            padding: 0;
+            color: white; /* Set text color to white */
+        }
+        h1 {
+            margin-top: 100px;
+            font-size: 36px;
+            font-weight: bold;
+            color: white; /* Set heading color to white */
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            margin: 10px;
+            animation: slideIn 2.0s ease-in-out forwards;
+            opacity: 0;
+        }
+        a {
+            text-decoration: none;
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+        a img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Choose a Task Category</h1>
+    <ul>
+        <li><a href="http://13.235.23.41/python.html"><img src="C:/Users/shaik/OneDrive/Desktop/p.png" alt="Python Logo"></a></li>
+        <li><a href="http://13.235.23.41/amazon.html"><img src="C:/Users/shaik/OneDrive/Desktop/aws.png"></a></li>
+        <li><a href="http://13.235.23.41/lw.html"><img src="C:/Users/shaik/OneDrive/Desktop/l.jpg"></a></li>
+    </ul>
+</body>
+</html>
